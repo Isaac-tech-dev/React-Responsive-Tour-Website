@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 
 import AboutImg from "../Assets/1.jpg"
 import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 function About(){
     return (
@@ -14,6 +15,8 @@ function About(){
             title = "About"
             btnClass="hide"
             />
+
+        <AboutUs/>        
 
         <Footer/>    
         </>

@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 
 import AboutImg from "../Assets/1.jpg"
 import Footer from "../components/Footer";
+import RecentTrips from "../components/RecentTrips";
 
 
 function Service(){
@@ -15,6 +16,8 @@ function Service(){
             title = "Service"
             btnClass="hide"
             />
+
+        <RecentTrips/>    
 
         <Footer/>    
         </>
